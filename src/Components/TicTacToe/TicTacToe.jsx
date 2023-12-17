@@ -85,7 +85,6 @@ export const TicTacToe = () => {
             e.current.innerHTML = "";
             return null;
         });
-        sound.current.pause();
     }
   return (
     <div className='container'>
